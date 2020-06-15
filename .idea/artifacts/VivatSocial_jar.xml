@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VivatSocial:jar">
+    <output-path>$USER_HOME$/Documents/Robbe/Leisure time/Games/Minecraft/Servers/Vivat/Localhost - Rewrite/plugins</output-path>
+    <root id="archive" name="VivatSocial.jar">
+      <element id="module-output" name="VivatSocial" />
+    </root>
+  </artifact>
+</component>

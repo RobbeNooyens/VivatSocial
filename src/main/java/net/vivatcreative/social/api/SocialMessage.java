@@ -1,0 +1,32 @@
+package net.vivatcreative.social.api;
+
+import net.vivatcreative.core.messages.VivatMessage;
+
+public enum SocialMessage implements VivatMessage {
+    FRIENDS_HELP,
+    PARTY_HELP,
+    ALREADY_IN_PARTY,
+    CREATED_PARTY,
+    NOT_IN_PARTY,
+    NOT_PARTYOWNER,
+    PLAYER_ALRADY_IN_PARTY,
+    PLAYER_HAS_PENDING_INVITE,
+    INVITE_SENT,
+    INVITE_RECEIVED,
+    NO_PENDING_INVITE,
+    PLAYER_NOT_MEMBER,
+    PLAYER_DENIED_INVITE,
+    PLAYER_ACCEPTED_INVITE,
+    DISBANDED_PARTY,
+    PARTY_CHAT_ENABLED,
+    PARTY_CHAT_DISABLED,
+    PARTY_CHAT_FORMAT,
+    FRIEND_LIST,
+    FRIEND_ADDED,
+    FRIEND_REMOVED,
+    JOINED_PARTY,
+    LEFT_PARTY,
+    PARTY_LIST,
+    PARTY_OWNER_CHANGED,
+    NOT_ADDED_TO_FRIENDLIST;
+}

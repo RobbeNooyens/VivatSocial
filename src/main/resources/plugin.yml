@@ -1,0 +1,23 @@
+name: VivatSocial
+description: Social addon for VivatCreative
+version: '1.0.0'
+main: net.vivatcreative.social.VivatSocial
+author: Robnoo02
+softdepend: [VivatCore]
+
+commands:
+  party:
+    usage: /<command>
+    description: 'Party command'
+  friends:
+    usage: /<command>
+    description: 'Friends command'
+    aliases:
+      - f
+      - friend
+  partychat:
+    usage: /<command>
+    description: 'Party chat command'
+    aliases:
+      - pc
+      - pchat

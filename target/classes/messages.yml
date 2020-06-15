@@ -1,0 +1,79 @@
+# Friends
+# =======
+friends_help:
+  - '&8&m-------------------&7[ &aFriends Help &r&7]&8&m---------------------'
+  - ' &e/friends add <player> &7add a friend'
+  - ' &e/friends remove <player> &7remove a friend'
+  - ' &e/friends list &7list your friends'
+  - ' &e/friends teleport <player> &7teleport to a friend'
+  - '&8&m-----------------------------------------------------'
+friend_list:
+  - '&8&m-------------------&7[ &aFriends List &r&7]&8&m---------------------'
+  - ' &eOnline &8> &a%online%'
+  - ' &eOffline &8> &c%offline%'
+  - '&8&m-----------------------------------------------------'
+friend_added:
+  - '&8[&aFRIENDS&8] &7You &aadded &e%player% &7to your friend list!'
+friend_removed:
+  - '&8[&aFRIENDS&8] &7You &cremoved &e%player% &7from your friend list!'
+not_added_to_friendlist:
+  - "&8[&aFRIENDS&8] &7You aren't added to &e%player%&7's friend list!"
+
+# PARTY
+# =====
+party_help:
+  - '&8&m-------------------&7[ &aParty Help &r&7]&8&m---------------------'
+  - ' &e/party create &7create a party'
+  - ' &e/party disband &7disband a party'
+  - ' &e/party invite <player> &7invite a player to your party'
+  - ' &e/party accept &7accept the party invitation'
+  - ' &e/party deny &7deny the party invitation'
+  - ' &e/party leave &7leave the party'
+  - ' &e/party kick <player> &7kick a player from the party'
+  - ' &e/party setowner <player> &7transfer the ownership of the party'
+  - ' &e/party chat &7toggle partychat'
+  - ' &e/party list &7list the owner and all members'
+  - '&8&m-----------------------------------------------------'
+already_in_party:
+  - "&8[&aPARTY&8] &cWarning! &7You're already in a party!"
+created_party:
+  - '&8[&aPARTY&8] &aSuccessfully &7created a party!'
+not_in_party:
+  - "&8[&aPARTY&8] &cWarning! &7You're not in a party!"
+not_partyowner:
+  - "&8[&aPARTY&8] &cWarning! &7You're not the party owner!"
+player_already_in_party:
+  - "&8[&aPARTY&8] &cWarning! &7This player is already in a party!"
+player_has_pending_invite:
+  - '&8[&aPARTY&8] &cWarning! &7This player still has a pending invite!'
+invite_sent:
+  - '&8[&aPARTY&8] &aSuccessfully &7sent a party invite!'
+invite_received:
+  - '@json["",{"text":"[","color":"dark_gray"},{"text":"PARTY","color":"green"},{"text":"]","color":"dark_gray"},{"text":" %player%","color":"yellow"},{"text":" invited you to a party! ","color":"gray"},{"text":"[","color":"dark_gray","clickEvent":{"action":"run_command","value":"/party accept"},"hoverEvent":{"action":"show_text","value":"§aClick to accept the invite"}},{"text":"ACCEPT","color":"green","clickEvent":{"action":"run_command","value":"/party accept"},"hoverEvent":{"action":"show_text","value":"§aClick to accept the invite"}},{"text":"]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/party accept"},"hoverEvent":{"action":"show_text","value":"§aClick to accept the invite"}},{"text":" ","color":"dark_gray"},{"text":"[","color":"dark_gray","hoverEvent":{"action":"show_text","value":"&cClick to deny the invite"}},{"text":"DENY","color":"red","clickEvent":{"action":"run_command","value":"/party deny"},"hoverEvent":{"action":"show_text","value":"&cClick to deny the invite"}},{"text":"]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/party deny"},"hoverEvent":{"action":"show_text","value":"&cClick to deny the invite"}}]'
+no_pending_invite:
+  - '&8[&aPARTY&8] &cWarning! &7You have no pending invite!'
+player_not_member:
+  - '&8[&aPARTY&8] &cWarning! &7This player is not a member of the party!'
+player_denied_invite:
+  - '&8[&aPARTY&8] &7You &cdenied &7the party invite'
+player_accepted_invite:
+  - '&8[&aPARTY&8] &7You &aaccepted &7the party invite'
+disbanded_party:
+  - '&8[&aPARTY&8] &7You disbanded the party'
+party_chat_enabled:
+  - '&8[&aPARTY&8] &7Party chat &aenabled'
+party_chat_disabled:
+  - '&8[&aPARTY&8] &7Party chat &cdisabled'
+party_chat_format:
+  - '&8[&aPARTY&8] &e%player% &7> &f%message%'
+joined_party:
+  - '&8[&aPARTY&8] &e%player% &ajoined &7the party'
+left_party:
+  - '&8[&aPARTY&8] &e%player% &cleft &7the party'
+party_owner_changed:
+  - '&8[&aPARTY&8] &e%owner% &7is now the party owner'
+party_list:
+  - '&8&m--------------------&7[ &aParty List &r&7]&8&m----------------------'
+  - ' &eOwner &8> &7%owner%'
+  - ' &eMembers &8> &7%members%'
+  - '&8&m-----------------------------------------------------'
